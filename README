@@ -45,7 +45,7 @@ This dataset reflects common issues in legacy library metadata:
 - Author names embedded in title fields
 - Roles recorded only in German (e.g., VerfasserIn, HerausgeberIn)
 - Inconsistent date formats and duplicate fields
-For a full list, see the project report: /main/gbv-persian-metadata-clean.csv.
+For a full list, see the project report [Cleaned dataset](./gbv-persian-metadata-clean.csv)
 
 
 ## Future Work
