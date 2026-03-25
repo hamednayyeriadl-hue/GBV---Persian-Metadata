@@ -1,0 +1,60 @@
+# GBV – Persian Metadata (Göttingen University Library)
+
+A cleaned and structured dataset of **98 Persian-language bibliographic records** from the Göttingen University Library (GBV system), prepared for digital humanities and library research applications.
+
+---
+
+## Repository Structure
+
+├── gbv-persian-metadata-clean.csv	 	# Cleaned dataset (98 records) 
+├── scripts/ 
+│   └── parse_gbv.py 					# Python script for parsing raw metadata 
+└── docs/
+     └── project-report-fa.md 			# Full project report (Persian)
+
+
+## How to Run the Parser
+
+1. Place your raw GBV export as a `.txt` file
+2. Update the input/output paths in `scripts/parse_gbv.py`
+3. Run:
+   ```bash
+   python scripts/parse_gbv.py
+This will generate a structured CSV file from the raw metadata.
+
+
+## Dataset Overview
+
+Total records: 98
+Language: English, Persian, German
+Source: GBV – Göttingen University Library
+
+
+## Tools Used
+
+Python — parsing and field extraction from raw metadata
+OpenRefine — data cleaning, normalization, and reconciliation
+Wikidata — entity reconciliation for personal names (32 of 98 matched)
+
+
+## Known Metadata Challenges
+
+This dataset reflects common issues in legacy library metadata:
+- Mixed Persian and Latin scripts within single fields
+- Inconsistent transliterations
+- Author names embedded in title fields
+- Roles recorded only in German (e.g., VerfasserIn, HerausgeberIn)
+- Inconsistent date formats and duplicate fields
+For a full list, see the project report: /main/gbv-persian-metadata-clean.csv.
+
+
+## Future Work
+- Improve name authority control
+- Enhance reconciliation with Wikidata
+- Normalize date formats and separate multilingual fields
+- Publish as linked open data
+
+
+## Contributing
+
+Suggestions, corrections, and collaborations are welcome — especially in the areas of metadata standards and Persian digital humanities.
