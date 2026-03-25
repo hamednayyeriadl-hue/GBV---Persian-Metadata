@@ -49,6 +49,7 @@ For a full list, see the project report: /main/gbv-persian-metadata-clean.csv.
 
 
 ## Future Work
+
 - Improve name authority control
 - Enhance reconciliation with Wikidata
 - Normalize date formats and separate multilingual fields
