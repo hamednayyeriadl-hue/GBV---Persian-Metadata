@@ -1,5 +1,7 @@
 # GBV – Persian Metadata (Göttingen University Library)
 
+This project focuses on cleaning, normalizing, and structuring Persian bibliographic metadata from GBV records for Digital Humanities and library applications.
+
 A cleaned and structured dataset of **98 Persian-language bibliographic records** from the Göttingen University Library (GBV system), prepared for digital humanities and library research applications.
 
 ---
